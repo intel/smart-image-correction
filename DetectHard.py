@@ -185,13 +185,13 @@ def detect_hard(input,reply="DC-04"):
         aa = a[i] - center[0]
         bb = b[i] - center[1]
         if aa <= 0 and bb < 0:
-            squares[1, 0], squares[1, 1] = a[i], b[i] ## 左上
+            squares[1, 0], squares[1, 1] = a[i], b[i] ## left top
         elif aa > 0 and bb < 0:
-            squares[2, 0], squares[2, 1] = a[i], b[i]  ## 右上
+            squares[2, 0], squares[2, 1] = a[i], b[i]  ## right top
         elif aa >= 0 and bb > 0:
-            squares[3, 0], squares[3, 1] = a[i], b[i]  ## 右下
+            squares[3, 0], squares[3, 1] = a[i], b[i]  ## right down
         else:
-            squares[0, 0], squares[0, 1] = a[i], b[i] ## 左下
-    #################
+            squares[0, 0], squares[0, 1] = a[i], b[i] ## left down
+    
     return squares
 
