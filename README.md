@@ -19,7 +19,7 @@ Pythons 3.9 is available from this link (https://www.python.org/downloads/), dow
 The PyCharm download is available via this link:
 https://www.jetbrains.com/pycharm/download/other.html
 
-![image](https://github.com/intel-sandbox/applications.ai.education.smart-image-correction.main/assets/102839943/1281e228-8ab8-4c0d-b773-0302d2017100)
+<img width="638" alt="image" src="https://user-images.githubusercontent.com/102839943/204227661-c9a3d03b-cf39-47c4-b4f6-2afe914d112d.png">
 
 ### Step3: PIP (>= 22.1.2) Installation
 
@@ -90,15 +90,15 @@ Users can use all features of Smart Image Correction App as Figure 3-1 by double
 
 #### Figure 3-1 Feature Usage Diagram
 
-![image](https://github.com/intel-sandbox/applications.ai.education.smart-image-correction.main/assets/102839943/31229aee-7e3e-419c-ab57-2f40be5a9f1c)
+![image](https://user-images.githubusercontent.com/102839943/204228110-5dae8d5b-fe7a-45ce-a749-b488ea580b53.png)
 
 #### Figure 3-2 Main GUI and Quad GUI of Smart Image Correction
 
-![image](https://github.com/intel-sandbox/applications.ai.education.smart-image-correction.main/assets/102839943/eea2f401-fee5-4484-beab-4cc583f78c5f)
+<img width="821" alt="image" src="https://user-images.githubusercontent.com/102839943/204229161-c11071a5-25e2-45b1-aeab-6e9633dff679.png">
 
 #### Figure 3-3 Main GUI and Dialog of Smart Image Correction
 
-![image](https://github.com/intel-sandbox/applications.ai.education.smart-image-correction.main/assets/102839943/6c709016-ec4c-499d-929b-cdaec87c4c73)
+<img width="791" alt="image" src="https://user-images.githubusercontent.com/102839943/204229527-e457258e-d1ce-43d8-8eea-3e31ea14edc1.png">
 
 ### Reference
 page_dewarp.py comes from https://github.com/mzucker/page_dewarp
