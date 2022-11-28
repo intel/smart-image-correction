@@ -29,7 +29,7 @@ https://packaging.python.org/en/latest/tutorials/installing-packages/
 ### Step4: Download Smart Image Correction Source Code
 
 Please get the source from 
-https://github.com/intel-sandbox/applications.ai.education.smart-image-correction.main/tree/main
+https://github.com/intel/smart-image-correction
 
 ### Step5: Download u2net Model
 
