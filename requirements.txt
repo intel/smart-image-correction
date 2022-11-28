@@ -1,5 +1,5 @@
 matplotlib==3.5.2
-numpy==1.19.5
+numpy==1.22.0
 onnx==1.12.0
 onnxruntime==1.10.0
 opencv-python==4.5.5.64
