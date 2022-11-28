@@ -1,4 +1,4 @@
-# applications.ai.education.smart-image-correction.main
+# smart-image-correction
 Repo contains source code for smart image correction application. This application is developed by PRC SMG TEG ADC IOT team to provide AI capability on Core platform to leverage iGPU acceleration.
 
 The application will scan input image with Intel(R) Core platform, auto-remove messy background and enhance, precisely restore,  and finally generate HD image. It targets for conference, education scenarios, etc.
