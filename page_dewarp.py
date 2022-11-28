@@ -199,7 +199,7 @@ def get_default_params(corners, ycoords, xcoords):
 
 def project_xy(xy_coords, pvec):
 
-    # get cubic polynomial coefficients given
+    #  get cubic polynomial coefficients given
     #
     #  f(0) = 0, f'(0) = alpha
     #  f(1) = 0, f'(1) = beta
