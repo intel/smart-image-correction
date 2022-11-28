@@ -96,7 +96,7 @@ class Display:
 
 
         self.ui.note_label.setText("Squares detecting ......")
-        #squares = Mainfunction.squaresDetect(src_img_copy)
+        # squares = Mainfunction.squaresDetect(src_img_copy)
         squares = DetectHard.detect_hard(src_img_copy)
         if len(squares) == 0:
             self.ui.note_label.setText("Can't detect Rect! ")
@@ -118,7 +118,7 @@ class Display:
             result1 = enhancer.contrast(result1, 1.2)
             result1 = enhancer.sharp(result1, 1.6)
             cv2.imwrite(self.fileName[:-4]+"_org_res.png",result1)
-        #cv2.imshow("src_copy", self.result)
+        # cv2.imshow("src_copy", self.result)
         self.result_copy = self.result
 
         self.cv2qimageRes( self.result )
