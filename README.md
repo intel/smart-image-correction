@@ -3,7 +3,7 @@ Repo contains source code for smart image correction application. This applicati
 
 The application will scan input image with Intel(R) Core platform, auto-remove messy background and enhance, precisely restore,  and finally generate HD image. It targets for conference, education scenarios, etc.
 
-![image](https://github.com/intel-sandbox/applications.ai.education.smart-image-correction.main/assets/45482019/edba122e-b84a-4706-be55-4fd5da67215a)
+![image](https://user-images.githubusercontent.com/102839943/205550534-6ac1b8f7-0be8-4dcf-8cee-cea6ec2758b1.png)
 
 
 ## Part One: Development Environment Setup Procedure
@@ -82,7 +82,7 @@ Users can use all features of Smart Image Correction App as Figure 3-1 by double
 
 •	There are 5 image enhancement function with default parameter, e.g., Brightness, Color, Contrast, Sharpness and Gamma. If users want to adjust one of these parameters, i.e., change the right-side parameter of the corresponding "Run Brightness" button firstly and then click "Run Brightness" button.
 
-![image](https://github.com/intel-sandbox/applications.ai.education.smart-image-correction.main/assets/102839943/9e1d8f9d-99cc-4a40-b872-0a0c748d8fa4)
+<img width="114" alt="image" src="https://user-images.githubusercontent.com/102839943/205550821-4bf8e42b-0f85-4aeb-b286-078a52be2148.png">
 
 •	There are 2 image enhancement functions without default parameter, such as Laplace named "Run Laplace", White Background and Black Font named "Black font White bg".
 
