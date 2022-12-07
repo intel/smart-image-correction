@@ -127,7 +127,7 @@ class Display:
         self.ui.note_label.setText("Surface Flattening ......")
         time_start = time.time()
         result_s = page_dewarp.surfaceFmain(self.fileName)
-        if result_s == False:
+        if result_s is None:
             self.ui.note_label.setText("Error: Can't detect surface in this image!")
             return
 
@@ -144,9 +144,12 @@ class Display:
         self.ui.note_label.setText("Executed time:"+str(time_sum)+ "s. Select 'Image Enhancement' or 'Save Result'.")
 
     def rotateResult(self):
-        self.result = cv2.rotate(self.result, cv2.ROTATE_90_CLOCKWISE)
-        self.result_copy = self.result
-        self.cv2qimageRes(self.result)
+        try:
+            self.result = cv2.rotate(self.result, cv2.ROTATE_90_CLOCKWISE)
+            self.result_copy = self.result
+            self.cv2qimageRes(self.result)
+        except:
+            self.ui.note_label.setText("Rotate failed.")
 
     def resetResult(self):
         self.ui.note_label.setText("Reset Done.")
