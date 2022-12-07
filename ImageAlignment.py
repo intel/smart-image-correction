@@ -79,4 +79,4 @@ class Ui_MainWindow(object):
         self.result_View.setText(_translate("MainWindow", "Result Image"))
         self.note_label.setText(_translate("MainWindow", "Please click \"Input Img\" button."))
         self.rotate_Button.setText(_translate("MainWindow", "Rotate Result"))
-        self.menuImage_Alignment.setTitle(_translate("MainWindow", "Image Alignment"))
+        self.menuImage_Alignment.setTitle(_translate("MainWindow", "Smart Image Correction"))
