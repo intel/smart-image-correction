@@ -878,11 +878,11 @@ def surfaceFmain(imgfile,F="SF-04"):
             if len(spans2) > len(spans):
                 spans = spans2
             else:
-                return False
+                return None
 
         if len(spans) < 1:
             print('skipping', name, 'because only', len(spans), 'spans')
-            return False
+            return None
             continue
 
 
