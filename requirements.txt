@@ -8,7 +8,7 @@ pyqt5-tools==5.15.4.3.2
 rembg==2.0.21
 scikit-image==0.19.1
 scipy==1.10.0
-Pillow==10.0.1
+Pillow==10.2.0
 qt5-applications==5.15.2.2.2
 qt5-tools==5.15.2.1.2
 pyinstaller==5.13.1
