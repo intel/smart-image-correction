@@ -1,6 +1,6 @@
 matplotlib==3.5.2
 numpy==1.22.0
-onnx==1.16.0
+onnx==1.17.0
 onnxruntime==1.10.0
 opencv-python==4.8.1.78
 PyQt5==5.15.4
