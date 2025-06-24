@@ -5,7 +5,7 @@ onnxruntime==1.10.0
 opencv-python==4.8.1.78
 PyQt5==5.15.4
 pyqt5-tools==5.15.4.3.2
-rembg==2.0.21
+rembg==2.0.66
 scikit-image==0.19.1
 scipy==1.10.0
 Pillow==10.3.0
