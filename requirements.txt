@@ -12,4 +12,4 @@ Pillow==10.3.0
 
 qt5-applications==5.15.2.2.2
 qt5-tools==5.15.2.1.2
-pyinstaller==5.13.1
+pyinstaller==6.0.0
